@@ -1,0 +1,46 @@
+.sort-panel {
+    background: #f5f5f5;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.sort-panel__title {
+    margin: 0 0 15px 0;
+    font-size: 18px;
+    color: #333;
+}
+
+.sort-panel__options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0 12px;
+}
+
+.sort-panel__option {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 8px 0;
+    border-radius: 4px;
+    transition: background-color 0.2s;
+}
+
+.sort-panel__option:hover {
+    background: #e9e9e9;
+}
+
+.sort-panel__btn{
+    align-self: start;
+    margin-top: 10px;
+    cursor: pointer;
+    background: transparent;
+    border-radius: 15px;
+    font-size: 16px;
+    padding: 5px 15px;
+}
+
+.sort-panel__btn:hover{
+    background-color: #e9e9e9;
+}

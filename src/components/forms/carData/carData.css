@@ -1,0 +1,28 @@
+.carData{
+    display: flex;
+    flex-direction: column;
+}
+
+.carData__field{
+    display: flex;
+    flex-direction: column;
+}
+
+.carData__input{
+    padding: 5px 10px;
+    font-size: 16px;
+    margin-top: 8px;
+}
+
+.carData__action{
+    margin-top: 10px;
+}
+
+.carData__btn{
+    padding: 5px 15px;
+    background-color: rgba(16, 234, 16, 0.78);
+    border-radius: 10px;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+}

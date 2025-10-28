@@ -1,0 +1,37 @@
+.car{
+    max-width: 300px;
+    padding: 20px 25px;
+    -webkit-box-shadow: 0px 10px 8px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 10px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 10px 8px 0px rgba(34, 60, 80, 0.2);
+    display: flex;
+    flex-direction: column;
+}
+
+.car__show-more{
+    width: 36px;
+    align-self: end;
+    cursor: pointer;
+}
+
+.car__show-more-img{
+    width: 100%;
+}
+
+.car__actions{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.car__btn{
+    padding: 5px 10px;
+    background-color: rgba(107, 220, 34, 0.8);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.car__btn_delete{
+    background-color: rgba(232, 41, 41, 0.8);
+}
